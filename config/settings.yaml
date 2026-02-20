@@ -1,0 +1,25 @@
+general:
+  screenshot_interval: 60  # seconds
+  max_log_size: 1048576  # 1MB
+  log_retention_days: 7
+
+security:
+  redact_patterns: config/sensitive_patterns.json
+  log_encryption: false
+
+transfer:
+  method: "ftp"  # ftp or https
+  interval: 300  # seconds
+
+ftp:
+  host: "ftp.example.com"
+  port: 21
+  username: "user"
+  password: "pass"
+  remote_path: "/logs"
+
+https:
+  endpoint: "https://api.example.com/logs"
+  api_key: "your-api-key"
+  headers:
+    Content-Type: "application/json"

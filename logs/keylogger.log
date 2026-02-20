@@ -1,0 +1,48 @@
+2025-04-25 00:51:24,405 - ERROR - Disk monitoring error: argument 1 (impossible<bad format char>)
+2025-04-25 00:51:32,633 - INFO - Command server started on port 8080
+2025-04-25 00:51:32,638 - INFO - Mouse listener started
+2025-04-25 00:51:32,715 - ERROR - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 386, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 401, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 390, in _handler
+    self._handle(code, msg, lpdata)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
+2025-04-25 00:51:32,718 - INFO - Uploading logs using FTP
+2025-04-25 00:51:32,789 - INFO - Keyboard listener started
+2025-04-25 00:51:33,018 - INFO - Screenshot captured: screenshots/screen_20250425_005132.png
+2025-04-25 00:51:33,724 - ERROR - Disk monitoring error: argument 1 (impossible<bad format char>)
+2025-04-25 00:51:34,141 - ERROR - FTP upload failed: [Errno 11001] getaddrinfo failed
+2025-04-25 00:51:36,744 - ERROR - Disk monitoring error: argument 1 (impossible<bad format char>)
+2025-04-25 00:51:39,761 - ERROR - Disk monitoring error: argument 1 (impossible<bad format char>)
+2025-04-25 00:51:42,767 - ERROR - Disk monitoring error: argument 1 (impossible<bad format char>)
+2025-04-25 00:51:43,217 - INFO - Keyboard listener started
+2025-04-25 00:51:43,218 - INFO - Mouse listener started
+2025-04-25 00:51:43,395 - INFO - Screenshot captured: screenshots/screen_20250425_005143.png
+2025-04-25 00:51:46,918 - ERROR - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 386, in _handler
+    converted = self._convert(code, msg, lpdata)
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 401, in _convert
+    raise NotImplementedError()
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\__init__.py", line 228, in inner
+    return f(self, *args, **kwargs)
+  File "E:\KeyLoggerProject\.venv\Lib\site-packages\pynput\_util\win32.py", line 390, in _handler
+    self._handle(code, msg, lpdata)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: '_thread._ThreadHandle' object is not callable
